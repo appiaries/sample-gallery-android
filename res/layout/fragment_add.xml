@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"    
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="画像を選択（必須）" />
+
+        <Button
+            android:id="@+id/btn_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"            
+            android:text="参照" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"        
+        android:gravity="top"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txt_description"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"          
+            android:inputType="textMultiLine" 
+            android:hint="コメントを入力（任意）"
+            android:ems="10"
+            android:gravity="top"
+            android:maxLength="100"
+            android:maxHeight="200dp"
+            android:background="@drawable/blackborder"
+            android:layout_centerHorizontal="true">            
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_Add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_description"     
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="#000000"
+            android:textColor="#ffffff"       
+            android:text="登録" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+    
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="" 
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="#ffffff"
+        />
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvDescription"
+        android:layout_margin="10dp" >
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#40e0d0"
+        android:text="@string/btn_change"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_delete"
+        android:textColor="#000000" 
+        android:background="#40e0d0"/>
+
+     <Button
+         android:id="@+id/btnBack"
+         android:layout_width="40dp"
+         android:layout_height="42dp"
+         android:layout_alignLeft="@+id/view_pager"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/back" />
+     
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_alignBaseline="@+id/btnBack"
+        android:layout_alignBottom="@+id/btnBack"
+        android:layout_alignRight="@+id/view_pager"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/next" />
+
+</RelativeLayout>

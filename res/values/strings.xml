@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gallery</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="tab_list_text">一覧表示</string>
+	<string name="tab_play_text">再生</string>
+	<string name="tab_add_image_text">画像追加</string>
+	<string name="tab_setting_text">設定</string>
+	
+	<string name="btn_delete">削除</string>
+	<string name="btn_change">変更</string>
+	<string name="btn_OK">OK</string>
+	
+	<string-array
+        name="intervalArray">
+        <item>画像の表示間隔</item>
+        <item>2秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+    </string-array>
+	
+</resources>
