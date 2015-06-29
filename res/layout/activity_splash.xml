@@ -4,5 +4,5 @@
     android:background="@drawable/splash_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.appiaries.gallery.activities.SplashActivity"
+    tools:context="com.appiaries.sample.gallery.activities.SplashActivity"
     tools:ignore="MergeRootFrame" />

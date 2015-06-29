@@ -8,6 +8,10 @@ All the images are stored as binary data on Appiaries server.
 Tapping "Play" button to play a slide-show of images registered.  
 In "Settings" view, you may set whether to show/hide comments during the slide-show, or set its interval.
 
+## Updates
+
+* [2015-06-29] Upgraded the _Appiaries SDK_ vesion from _**"Appiaries SDK v.1.4.0"**_ to _**"Appiaries SDK v.2.0.0"**_. 
+
 ## Requirements
 
 It does not require you an Appiaries account if you just want to build and run the app.  
@@ -111,10 +115,10 @@ You may freely use, modify, or distribute the source codes provided.
 For further details, refer to the official documents on Appiaries.
 
 in English  
-http://docs.appiaries.com/?p=13582&lang=en
+http://docs.appiaries.com/?p=15411&lang=en
 
 in Japanese  
-http://docs.appiaries.com/?p=13586
+http://docs.appiaries.com/?p=14776
 
 Also, iOS version available on GitHub.  
 https://github.com/appiaries/sample-gallery-ios

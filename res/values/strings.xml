@@ -1,25 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Appiaries -->
+    <string name="appiaries__datastore_id">appiaries_sample</string>
+    <string name="appiaries__application_id">gallery</string>
+    <string name="appiaries__application_token">appdb5b6bb4c561299ffe54c8e9f1</string>
+
+    <!-- Common (App Global) -->
     <string name="app_name">Gallery</string>
-    <string name="title_activity_splash">SplashActivity</string>
-    <string name="title_activity_main">MainActivity</string>
-    
-    <string name="tab_list_text">一覧表示</string>
-	<string name="tab_play_text">再生</string>
-	<string name="tab_add_image_text">画像追加</string>
-	<string name="tab_setting_text">設定</string>
-	
-	<string name="btn_delete">削除</string>
-	<string name="btn_change">変更</string>
-	<string name="btn_OK">OK</string>
-	
-	<string-array
-        name="intervalArray">
+    <string name="progress__loading">ロード中&#8230;</string>
+    <string name="progress__processing">処理中&#8230;</string>
+    <string name="progress__creating">作成中&#8230;</string>
+    <string name="progress__updating">更新中&#8230;</string>
+    <string name="progress__deleting">削除中&#8230;</string>
+    <string name="form_field__image_file">画像を選択（必須）</string>
+    <string name="form_field__file">参照</string>
+    <string name="form_field__description">コメントを入力（任意）</string>
+    <string name="form_field__id_annotation">※登録後に変更できません。</string>
+    <string name="form_field__email">●メールアドレス</string>
+    <string name="form_field__password">●パスワード</string>
+    <string name="form_field__forgot_password">→パスワードを忘れた方はこちら</string>
+    <string name="form_field__nickname">●ニックネーム</string>
+    <string name="form_field__nickname_annotation">※登録後に変更できません。</string>
+    <string name="error__title">エラー</string>
+    <string name="message_error__wrong_input">入力された内容に誤りがあります。</string>
+    <string name="message_error__invalid_password">パスワードが不正です。</string>
+    <string name="message_error__duplicated_id">IDまたはメールアドレスが重複しています。</string>
+    <string name="message_error__authentication_failure">認証に失敗しました。</string>
+    <string name="message_error__unexpected_error">予期せぬエラーが発生しました。\nしばらく経ってから再度アクセスしてください。</string>
+    <string name="message_error__empty_task_title">タスクを入力してください。</string>
+
+    <string name="message_error__required_image_file">画像が選択されていません。</string>
+    <string name="message_error__empty_description">コメントが入力されていません。</string>
+    <string name="message_error__too_long_description">コメントが全角50文字を超えています。</string>
+
+    <string name="message_success__created">作成しました</string>
+    <string name="message_success__updated">更新しました</string>
+    <string name="message_success__deleted">削除しました</string>
+    <string name="message_success__signed_up">サインアップしました</string>
+    <string name="message_success__logged_in">ログインしました</string>
+    <string name="message_success__cancelled">キャンセルされました</string>
+    <string name="tab__list">一覧表示</string>
+    <string name="tab__play">再生</string>
+    <string name="tab__add">画像追加</string>
+    <string name="tab__settings">設定</string>
+
+
+    <!-- SplashActivity -->
+
+    <!-- MainActivity -->
+
+    <!-- InputFragment -->
+    <string name="input__title">画像追加</string>
+    <string name="input__title_in_edit_mode">画像編集</string>
+    <string name="input__submit_button">登録</string>
+    <string name="input__submit_button_in_edit_mode">変更</string>
+    <string name="input__ok_button">OK</string>
+
+    <!-- DetailFragment -->
+    <string name="detail__title">一覧表示</string>
+    <string name="detail__edit_button">変更</string>
+    <string name="detail__delete_button">削除</string>
+    <string name="detail__delete_confirm_title">ご確認</string>
+    <string name="detail__delete_confirm_message">画像を削除します。よろしいですか？</string>
+    <string name="detail__ok_button">OK</string>
+    <string name="detail__cancel_button">キャンセル</string>
+
+    <!-- ListFragment -->
+    <string name="list__title">一覧表示</string>
+
+    <!-- PlayFragment -->
+    <string name="play__title">再生</string>
+    <string name="play__edit_button">変更</string>
+    <string name="play__delete_button">削除</string>
+    <string name="play__delete_confirm_title">ご確認</string>
+    <string name="play__delete_confirm_message">画像を削除します。よろしいですか？</string>
+    <string name="play__ok_button">OK</string>
+    <string name="play__cancel_button">キャンセル</string>
+
+    <!-- SettingsFragment -->
+    <string name="settings__title">設定</string>
+    <string name="settings__comment_switch">コメントのON/OFF</string>
+    <string name="settings__display_interval_unset">画像の表示間隔</string>
+    <string name="settings__display_interval_unit">秒</string>
+
+    <string-array name="intervals">
         <item>画像の表示間隔</item>
         <item>2秒</item>
         <item>5秒</item>
         <item>10秒</item>
     </string-array>
-	
+
 </resources>
